@@ -200,4 +200,4 @@ function keyPressed(event) {
         //down arrow
         gameState.rectVelocity.y = -gameState.playerSpeed;
     }
-};
+}
