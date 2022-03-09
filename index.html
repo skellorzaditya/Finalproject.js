@@ -8,13 +8,13 @@
     <title>Alien Destroyer</title>
 </head>
 
-<body style="background-color:black;" onkeydown="keyPressed(event)" onkeyup="keyReleased(event)">
+<body style="background-color:black; zoom: 90%;" onkeydown="keyPressed(event)" onkeyup="keyReleased(event)">
     <h1 style="color:white;">Alien Destroyer!</h1>
-    <canvas id="canvas-top" width="1185px" height="400px" style="border:2px solid white"></canvas>
-    <p id="score" position="absolute" top="850px" left="50px"></p>
+    <h2 style="color:white;">Dodge the enemies by using arrow keys! Stay alive as long as possible!</h2>
+    <canvas id="canvas-top" width="1185px" height="500px" style="border:2px solid white"></canvas>
+    <p id="score" style="color: white; " position:absolute; top: 100px; left:50px;>score:</p>
     <p id="keydown-output"></p>
     <p id="keyup-output"></p>
-    <h3 style="color:white;">Score:</h3>
     <script src="js/aliendestroyer.js "></script>
 </body>
 
